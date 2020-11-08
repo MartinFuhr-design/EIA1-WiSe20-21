@@ -1,0 +1,144 @@
+.halbkreis{
+    background: rgba(70, 17, 17, 0.61);
+    position: absolute;
+    height: 550px;
+    width: 1000px; 
+    top: 0;
+    left: 180px;
+    border: 1px;
+    border-radius: 0 0 500px 500px;
+    display: block;
+}
+
+.kreisinhalt{
+    padding-top: 0px;
+    color: rgb(255, 250, 246);
+}
+
+.textkreis{
+    font-size: 20px;
+    line-height: 0px;
+    text-align: left;
+    width: 30%;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+.kreisinhalt h1{
+    font-size: 200px;
+    line-height: 1px;
+    text-align: center;
+}
+
+.facebook{
+    padding: 0 0 0 500px;
+    position: absolute;
+    bottom: 100px;
+    opacity: 70%;
+}
+
+.facebook:hover{
+    opacity: 100%;
+
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    right: 100px;
+    background-color: black;
+    text-decoration: none;
+}
+
+#navigationsbereich{
+    position: fixed;
+    top: 0px;
+    right: 100px;
+    background-color: black;
+    padding: 4px 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+
+}
+
+#navibereich a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+
+
+
+.ueberschriftfoto{
+    font-size: 30px;
+    color: black;
+    padding: 620px;
+    margin-left: -900px;
+}
+
+.foto1{
+    position: absolute;
+    top: 700px;
+    left: 280px;
+}
+
+.foto2{
+    position: absolute;
+    top: 700px;
+    left: 750px;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.schriftfarbe{
+    color: teal;
+}
+
+#navigationsbereich a:hover{
+    background-color: tomato;
+}
+
+.steckbrief{
+    margin-top: 570px;
+    margin-left: 600px;
+}
+
+#lname{
+    background-color: grey;
+}
+
+.formular{
+    margin-top: 700px;
+    margin-left: 600px;   
+}
+
+.nachricht{  
+    background-color: grey;
+    padding-left: 100px;
+    
+}
+
+.video{
+    margin-top: -850px;
+    margin-left: -200px;
+}
+
+
+.body{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.ueberschriftvid{
+        font-size: 30px;
+    color: black;
+    margin-top: 620px;
+    margin-left: -900px;
+}
