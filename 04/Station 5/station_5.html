@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Portfolio</title>
+<style>
+body{	font-family: sans-serif;
+	font-size: medium;
+	background-image: url(./bg.png);
+	}
+
+</style>
+<link rel="Stylesheet" href="./stylesheet_station_5.css">
+</head>
+<body>
+    <img class="blauekarte" src="./wrapperbg.png">
+    <div class="karteinhalt">
+        <h1>Formular</h1>
+        <form action="/action_page.php">
+            <label for="fname">Dein Name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Deine Nachricht an den Weihnachtsmann:</label><br>
+            <textarea id="nachricht" name="nachricht" placeholder="Nachricht" cols="20" rows="5"> </textarea>
+            <br>
+            <p>Willst du ein Geschenk?</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Ja</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nein</label><br>
+            <input type="submit" value="abschicken">
+          </form> 
+    </div>
+
+</body>
+</html>

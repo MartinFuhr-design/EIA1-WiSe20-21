@@ -1,0 +1,22 @@
+.rotekarte{
+    position: absolute;
+    height: 500px;
+    width: 700px;
+    left: 600px;
+    top: 300px;
+}
+
+.video{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    left: 650px;
+    top: 350px; 
+}
+
+.schleife{
+    position: absolute;
+    height: 150px;
+    left: 1020px;
+    top: 650px;
+}

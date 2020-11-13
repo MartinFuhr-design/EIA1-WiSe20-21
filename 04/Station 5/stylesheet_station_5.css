@@ -1,0 +1,15 @@
+.blauekarte{
+    position: absolute;
+    text-align: left;
+    height: 500px;
+    width: 700px;
+    left: 600px;
+    top: 300px;
+}
+
+.karteinhalt{
+   position: absolute;
+   left: 650px;
+   top: 350px; 
+   color: ivory;
+}
