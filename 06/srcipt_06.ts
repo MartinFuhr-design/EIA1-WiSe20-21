@@ -35,7 +35,7 @@ function changeContinentValue(continent: string, newValue: number, oldValue: num
     document.querySelector("#relativeEmission").innerHTML = (Math.round((newValue / gesamtemission) * 100)) + "%";
     document.querySelector("#growEmission").innerHTML = (Math.round(((newValue / oldValue) - 1) * 100)) + "%";
     document.querySelector("#AbsoluteGrowthEmission").innerHTML = (Math.round(newValue - oldValue)) + "kg CO2";
-    document.querySelector(".chart").setAttribute('style', 'height' + ((newValue / gesamtemission) * 100) + "%");
+    document.querySelector(".chart").setAttribute('style', 'height:' + ((newValue / gesamtemission) * 100) + "%");
 }
 
 //EventListener
