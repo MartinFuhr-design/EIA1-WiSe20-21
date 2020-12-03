@@ -1,0 +1,81 @@
+body{
+    background-color: #363338;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+
+#container{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#button1{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #D74654 ;
+}
+
+
+#button2{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #B24C63;
+}
+
+#button3{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #6264A7;
+}
+
+#button4{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #FF8A64;
+}
+
+#button5{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #236f72;
+}
+
+#button6{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #FFA248;
+}
+
+#button7{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #5438DC;
+}
+
+#button8{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #FF6E3E;
+}
+
+#button9{
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    background-color: #E74C06;
+}
+
