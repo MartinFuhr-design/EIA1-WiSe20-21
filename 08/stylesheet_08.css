@@ -96,3 +96,7 @@ body{
 .active{
     color: rgb(224, 19, 19);
 }
+
+.playbuttonhidden{
+    visibility: hidden;
+}

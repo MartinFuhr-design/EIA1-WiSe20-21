@@ -69,8 +69,8 @@ stopButton.addEventListener("click", function(): void {
 
 
 function toggleClasses(firstHTMLElement: HTMLElement, secondHTMLElement: HTMLElement): void {
-    firstHTMLElement.classList.add("is-hidden");
-    secondHTMLElement.classList.add("is-hidden");
+    firstHTMLElement.classList.add("playbuttonhidden");
+    secondHTMLElement.classList.remove("playbuttonhidden");
 }
 
 //Array and Function

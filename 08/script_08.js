@@ -68,8 +68,8 @@ var L08;
         playSchleife(false);
     });
     function toggleClasses(firstHTMLElement, secondHTMLElement) {
-        firstHTMLElement.classList.add("is-hidden");
-        secondHTMLElement.classList.add("is-hidden");
+        firstHTMLElement.classList.add("playbuttonhidden");
+        secondHTMLElement.classList.remove("playbuttonhidden");
     }
     //Array and Function
     var beatArray = [];
