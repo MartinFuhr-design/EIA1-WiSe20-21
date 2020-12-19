@@ -1,0 +1,53 @@
+
+#body{
+    background-color: #333333 ;
+
+}
+
+#ToDOList {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #333333;
+    width: 360px;
+    height: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AAAAAA;
+    font-size: 30px;
+}
+
+#header {
+    font-size: 50px;
+    color: #AAAAAA;
+}
+
+.counter{
+    color: #e71515;
+    font-size: 30px;
+    margin-left: 70px;
+     
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+
+#clear:hover{
+    background-color: #e71515;
+    cursor: pointer;
+    
+
+}
+
+.fa-trash-alt:hover {
+    color: #e71515;
+    cursor: pointer;
+}
+
+
+
+
+
+
